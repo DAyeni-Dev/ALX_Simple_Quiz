@@ -1,87 +1,109 @@
-# 🧠 Simple Interactive Quiz – Beginner JavaScript Project
+# 📘 Quiz & Calculator Web Projects
 
-This is a **basic quiz application** created using HTML, CSS, and vanilla JavaScript. It presents a single multiple-choice question, allowing users to select an answer and get immediate feedback on whether they were correct — perfect for learning and applying core frontend concepts.
-
----
-
-## 📌 Purpose
-
-This project was developed as part of a frontend learning assignment to demonstrate:
-
-- DOM manipulation using vanilla JavaScript  
-- Conditional logic for real-time input evaluation  
-- Clean and intuitive user interface design  
-- Event handling and dynamic feedback  
-
-The app simulates a simple quiz interaction and provides validation through a single question — ideal for beginners practicing JavaScript fundamentals.
+This repository contains two beginner-friendly, interactive web applications: a **Simple Quiz App** and a **Simple Calculator App**. These projects help learners practice HTML, CSS, and JavaScript skills through real-world UI functionalities.
 
 ---
 
-## 🎯 Features & Accomplishments
+## 🎯 Project 1: Simple Quiz App
 
-✅ **Single-question quiz interface**  
-✅ **Three answer options** using radio buttons  
-✅ **Submit button** triggers validation logic  
-✅ **Feedback message** displayed dynamically  
+### ✅ Purpose:
 
-🧪 Logic includes:
+To test users' knowledge with a basic quiz question, validate their answer, and provide immediate feedback.
 
-- Capturing the selected radio input
-- Comparing user selection to the correct answer ("4")
-- Displaying:
-  - ✅ `"Correct! Well done."` if the answer is right
-  - ❌ `"That's incorrect. Try again!"` if the answer is wrong
+### 🚀 Features:
 
-🎨 UI Design:
+* One quiz question with multiple-choice answers
+* Radio button options for selection
+* Real-time feedback on answer submission
 
-- Centered and responsive layout
-- Hover effects for button interactivity
-- Styled with consistent spacing and visual clarity using CSS
+### 🛠️ Technologies Used:
 
----
-
-## 🔧 Technologies Used
-
-- **HTML5** – Markup for layout and quiz structure  
-- **CSS3** – Styling the quiz interface  
-- **JavaScript (ES6)** – Core quiz logic and user interaction  
-
----
-
-## 📂 Project Structure
+* HTML5
+* CSS3
+* JavaScript (DOM Manipulation)
 
 ```
-📁 simple-quiz
-├── index.html         # The quiz question and layout
-├── style.css          # Styling for form, feedback, and layout
-├── quiz.js            # Logic to handle answer checking and feedback
-└── README.md          # Project documentation and purpose
+
+### 🔍 How It Works:
+
+* The user selects an answer using radio buttons.
+* When the "Submit Answer" button is clicked, a JavaScript function checks the selected value.
+* Feedback is displayed depending on whether the answer is correct or incorrect.
+
+### 🧠 Validations:
+
+* Only one radio option is selectable.
+* JavaScript ensures user selection before processing.
+
+### 🖼️ Visual Preview:
+
+* A clean, card-like UI with a radio button list
+* Dynamic feedback text appears below the button
+
+---
+
+## 🧮 Project 2: Simple Calculator App
+
+### ✅ Purpose:
+
+To provide users with an interface to perform basic arithmetic operations: addition, subtraction, multiplication, and division.
+
+### 🚀 Features:
+
+* Input fields for two numbers
+* Four operation buttons (+, -, \*, /)
+* Real-time result display
+* Handles division by zero
+
+### 🛠️ Technologies Used:
+
+* HTML5
+* CSS3
+* JavaScript (Functions and Event Listeners)
+
+
 ```
 
+### 🔍 How It Works:
+
+* Users enter two numbers.
+* Clicking an operator button triggers the corresponding function.
+* Result is shown dynamically on the page.
+
+### 🧠 Validations:
+
+* Input is parsed using `parseFloat()`.
+* Defaults to zero for empty fields.
+* Returns an error message for division by zero.
+
+### 🖼️ Visual Preview:
+
+* Centered layout
+* Minimalistic calculator UI
+* Easy-to-read output below the buttons
+
 ---
 
-## 💡 How to Use
+## 🔮 Future Improvements
 
-1. Open `index.html` in your browser.
-2. Read the question: *What is 2 + 2?*
-3. Select one of the three answer choices.
-4. Click **Submit Answer**.
-5. View the feedback message that appears below.
+For both apps:
 
----
-
-## 🌟 Ideas for Future Improvement
-
-- Add more questions and track score
-- Randomize questions and answers
-- Add a timer and leaderboard
-- Enhance accessibility (keyboard navigation, ARIA)
+* Add responsive design for mobile
+* Add themes or color mode toggle
+* Enhance quiz app with multiple questions and scoring system
+* Add calculator history and clear/reset functionality
 
 ---
 
 ## 👩‍💻 Author
 
-**Damilola Ayeni**  
-Frontend Developer | QA Professional  
-[GitHub](https://github.com/DAyeni-Dev) 
-• [LinkedIn](https://www.linkedin.com/in/damilola-rachael-ayeni-631b2618b/)
+**Damilola Ayeni**
+Frontend Developer | QA Engineer | Tech Enthusiast
+
+* GitHub: [DAyeni-Dev](https://github.com/DAyeni-Dev)
+* LinkedIn: [Damilola Rachael Ayeni](https://www.linkedin.com/in/damilola-rachael-ayeni-631b2618b)
+* Email: [oliwadamilolaayeni321@gmail.com](mailto:oliwadamilolaayeni321@gmail.com)
+
+---
+
+> "Build. Test. Repeat. Keep learning."
