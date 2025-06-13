@@ -1,99 +1,65 @@
-# 📘 Quiz & Calculator Web Projects
+# 🧠 Simple Quiz App & 🧮 Simple Calculator App
 
-This repository contains two beginner-friendly, interactive web applications: a **Simple Quiz App** and a **Simple Calculator App**. These projects help learners practice HTML, CSS, and JavaScript skills through real-world UI functionalities.
+## 📌 Overview
 
----
+This repository contains two beginner-friendly web projects designed to demonstrate essential front-end development skills using **HTML**, **CSS**, and **JavaScript**:
 
-## 🎯 Project 1: Simple Quiz App
-
-### ✅ Purpose:
-
-To test users' knowledge with a basic quiz question, validate their answer, and provide immediate feedback.
-
-### 🚀 Features:
-
-* One quiz question with multiple-choice answers
-* Radio button options for selection
-* Real-time feedback on answer submission
-
-### 🛠️ Technologies Used:
-
-* HTML5
-* CSS3
-* JavaScript (DOM Manipulation)
-
-```
-
-### 🔍 How It Works:
-
-* The user selects an answer using radio buttons.
-* When the "Submit Answer" button is clicked, a JavaScript function checks the selected value.
-* Feedback is displayed depending on whether the answer is correct or incorrect.
-
-### 🧠 Validations:
-
-* Only one radio option is selectable.
-* JavaScript ensures user selection before processing.
-
-### 🖼️ Visual Preview:
-
-* A clean, card-like UI with a radio button list
-* Dynamic feedback text appears below the button
+- A **Simple Quiz App** that evaluates user-selected answers and gives immediate feedback.
+- A **Simple Calculator App** capable of performing basic arithmetic operations.
 
 ---
 
-## 🧮 Project 2: Simple Calculator App
+## 🧠 Simple Quiz App
 
-### ✅ Purpose:
+### ✅ Purpose
 
-To provide users with an interface to perform basic arithmetic operations: addition, subtraction, multiplication, and division.
+The Simple Quiz App helps users answer a single multiple-choice question and receive instant feedback. It’s a basic demonstration of event handling, form validation, and DOM manipulation using JavaScript.
 
-### 🚀 Features:
+### ✨ Features
 
-* Input fields for two numbers
-* Four operation buttons (+, -, \*, /)
-* Real-time result display
-* Handles division by zero
+- One multiple-choice math question (2 + 2).
+- Three radio button answer options.
+- Instant feedback upon submission.
+- User-friendly styling and layout.
 
-### 🛠️ Technologies Used:
+### 🛠 Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript (Functions and Event Listeners)
+- HTML
+- CSS
+- JavaScript (vanilla)
+
+### 💡 Functionality
+
+- Uses `querySelector` to get the selected answer.
+- Compares it to the correct value.
+- Displays feedback using DOM updates.
 
 
-```
+## 🧮 Simple Calculator App
 
-### 🔍 How It Works:
+### ✅ Purpose
 
-* Users enter two numbers.
-* Clicking an operator button triggers the corresponding function.
-* Result is shown dynamically on the page.
+The Simple Calculator allows users to enter two numbers and perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 
-### 🧠 Validations:
+### ✨ Features
 
-* Input is parsed using `parseFloat()`.
-* Defaults to zero for empty fields.
-* Returns an error message for division by zero.
+- Input fields for two numbers.
+- Buttons for each operation: `+`, `-`, `*`, `/`.
+- Result display area.
+- Input validation using `parseFloat` and default fallback.
 
-### 🖼️ Visual Preview:
+### 🛠 Technologies Used
 
-* Centered layout
-* Minimalistic calculator UI
-* Easy-to-read output below the buttons
+- HTML
+- CSS
+- JavaScript
 
----
+### 💡 Functionality
 
-## 🔮 Future Improvements
-
-For both apps:
-
-* Add responsive design for mobile
-* Add themes or color mode toggle
-* Enhance quiz app with multiple questions and scoring system
-* Add calculator history and clear/reset functionality
-
----
+Each arithmetic function is modular:
+function add(a, b) {
+  return a + b;
+}
 
 ## 👩‍💻 Author
 
