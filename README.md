@@ -14,14 +14,14 @@ This repository contains two beginner-friendly web projects designed to demonstr
 
 The Simple Quiz App helps users answer a single multiple-choice question and receive instant feedback. It’s a basic demonstration of event handling, form validation, and DOM manipulation using JavaScript.
 
-### ✨ Features
+###  Features
 
 - One multiple-choice math question (2 + 2).
 - Three radio button answer options.
 - Instant feedback upon submission.
 - User-friendly styling and layout.
 
-### 🛠 Technologies Used
+### Technologies Used
 
 - HTML
 - CSS
@@ -47,7 +47,7 @@ The Simple Calculator enables users to enter two numbers and perform basic arith
 - Result display area.
 - Input validation using `parseFloat` and default fallback.
 
-### 🛠 Technologies Used
+###  Technologies Used
 
 - HTML
 - CSS
