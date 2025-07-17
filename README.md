@@ -1,17 +1,16 @@
-# 🧠 Simple Quiz App & 🧮 Simple Calculator App
+#  Simple Quiz App &  Simple Calculator App
 
-## 📌 Overview
+##  Overview
 
 This repository contains two beginner-friendly web projects designed to demonstrate essential front-end development skills using **HTML**, **CSS**, and **JavaScript**:
 
 - A **Simple Quiz App** that evaluates user-selected answers and gives immediate feedback.
 - A **Simple Calculator App** capable of performing basic arithmetic operations.
 
----
 
-## 🧠 Simple Quiz App
+##  Simple Quiz App
 
-### ✅ Purpose
+###  Purpose
 
 The Simple Quiz App helps users answer a single multiple-choice question and receive instant feedback. It’s a basic demonstration of event handling, form validation, and DOM manipulation using JavaScript.
 
@@ -28,20 +27,20 @@ The Simple Quiz App helps users answer a single multiple-choice question and rec
 - CSS
 - JavaScript (vanilla)
 
-### 💡 Functionality
+### Functionality
 
 - Uses `querySelector` to get the selected answer.
 - Compares it to the correct value.
 - Displays feedback using DOM updates.
 
 
-## 🧮 Simple Calculator App
+##  Simple Calculator App
 
-### ✅ Purpose
+###  Purpose
 
-The Simple Calculator allows users to enter two numbers and perform basic arithmetic operations like addition, subtraction, multiplication, and division.
+The Simple Calculator enables users to enter two numbers and perform basic arithmetic operations, including addition, subtraction, multiplication, and division.
 
-### ✨ Features
+###  Features
 
 - Input fields for two numbers.
 - Buttons for each operation: `+`, `-`, `*`, `/`.
@@ -54,14 +53,14 @@ The Simple Calculator allows users to enter two numbers and perform basic arithm
 - CSS
 - JavaScript
 
-### 💡 Functionality
+###  Functionality
 
 Each arithmetic function is modular:
 function add(a, b) {
   return a + b;
 }
 
-## 👩‍💻 Author
+## Author
 
 **Damilola Ayeni**
 Frontend Developer | QA Engineer | Tech Enthusiast
@@ -70,6 +69,4 @@ Frontend Developer | QA Engineer | Tech Enthusiast
 * LinkedIn: [Damilola Rachael Ayeni](https://www.linkedin.com/in/damilola-rachael-ayeni-631b2618b)
 * Email: [oliwadamilolaayeni321@gmail.com](mailto:oliwadamilolaayeni321@gmail.com)
 
----
 
-> "Build. Test. Repeat. Keep learning."
