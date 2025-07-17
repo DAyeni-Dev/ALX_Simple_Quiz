@@ -1,6 +1,4 @@
-// calculator.js
 
-// Arithmetic functions
 function add(number1, number2) {
     return number1 + number2;
 }
@@ -20,12 +18,11 @@ function divide(number1, number2) {
     return number1 / number2;
 }
 
-// Function to update the result on the UI
 function updateResult(result) {
     document.getElementById('calculation-result').textContent = result;
 }
 
-// Event listeners for each operation
+
 document.getElementById('add').addEventListener('click', function () {
     const number1 = parseFloat(document.getElementById('number1').value) || 0;
     const number2 = parseFloat(document.getElementById('number2').value) || 0;
